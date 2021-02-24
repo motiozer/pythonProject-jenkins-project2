@@ -41,7 +41,7 @@ pipeline {
         }
 				stage('clean_environemnt') {
             steps {
-					bat 'python clean_environemnt.py'
+					bat 'python clean_environment.py'
 				
                 }
         }
