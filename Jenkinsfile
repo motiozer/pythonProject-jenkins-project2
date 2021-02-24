@@ -35,7 +35,7 @@ pipeline {
         }
 				stage('run combined_testing') {
             steps {
-					bat 'python combined_testing.py'
+					bat 'python combined_test.py'
 				
                 }
         }
